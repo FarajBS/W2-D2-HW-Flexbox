@@ -1,0 +1,304 @@
+/* All */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*= All =*/
+
+/* =========================================================================================================================================== */
+
+/* Elements */
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Elements */
+
+/* =========================================================================================================================================== */
+
+/* Header Section */
+header {
+    width: 100vw;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .contianer {
+    width: 96vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .contianer .leftSection {
+    display: flex;
+    align-items: center;
+    width: 18vw;
+}
+
+header .contianer .leftSection ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header .contianer .leftSection ul li a img {
+    width: 6vw;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+header .contianer .rightSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 28.5vw;
+}
+
+header .contianer .rightSection .headerRightList {
+    display: flex;
+    align-items: center;
+    width: 53.5%;
+}
+
+header .contianer .rightSection .headerRightList ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header .contianer .rightSection .logSign {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+header .contianer .rightSection .logSign button {
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+header .contianer .rightSection .logSign .login {
+    background-color: #E60023;
+    color: #fff;
+}
+
+header .contianer .rightSection .logSign .login:hover {
+    background-color: #c7001e;
+}
+
+header .contianer .rightSection .logSign .signup {
+    background-color: #e7e5e5;
+}
+
+header .contianer .rightSection .logSign .signup:hover {
+    background-color: #c7c6c6;
+}
+/*= Header Section =*/
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Main Section */
+main {
+    width: 100vw;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .contianer {
+    width: 96vw;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+main .contianer .contImgs {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+main .contianer .contImgs .contianerImg img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+}
+
+/* Section One */
+main .contianer .sectionOne {
+    width: 13.71vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* Section Two */
+main .contianer .sectionTwo {
+    width: 13.71vw;
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+
+/* Section Three */
+main .contianer .sectionThree {
+    width: 41.13vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .contianer .sectionThree .titles {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20%;
+}
+
+main .contianer .sectionThree .titles h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+main .contianer .sectionThree .titles .goldTiltle {
+    color: #be9b42;
+}
+
+main .contianer .sectionThree .titles .circles {
+    width: 16.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+main .contianer .sectionThree .titles .circles div {
+    width: 0.6vw;
+    height: 0.6vw;
+    border-radius: 50%;
+    background-color: #cecdcd;
+}
+
+main .contianer .sectionThree .titles .circles .goldCircle {
+    background-color: #be9b42;
+}
+
+main .contianer .sectionThree .images {
+    display: flex;
+    height: 69%;
+    align-items: center;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+main .contianer .sectionThree .images .partOne, main .contianer .sectionThree .images .partThree {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+}
+
+main .contianer .sectionThree .images .partTwo {
+    display: flex;
+    align-items: end;
+    height: 100%;
+}
+
+main .contianer .sectionThree .images {
+    display: flex;
+}
+
+main .contianer .sectionThree .images {
+    display: flex;
+}
+
+main .contianer .sectionThree .images {
+    display: flex;
+}
+
+/* Section Four */
+main .contianer .sectionFour {
+    width: 13.71vw;
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+
+/* Section Five */
+main .contianer .sectionFive {
+    width: 13.71vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+/*= Main Section =*/
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Arrow */
+.arrow div {
+    background-color: #7c5a04;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 10px 15px;
+    position: fixed;
+    bottom: 80px;
+    left: 50%;
+    z-index: 10;
+}
+/*= Arrow =*/
+
+
+/* Footer Section */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #bea460;
+    width: 100vw;
+    padding: 10px;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+footer h2 span {
+    rotate:calc(90) ;
+}
+/*= Footer Section =*/
